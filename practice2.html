@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>First Web page</title>
+    <link rel="icon" href="xiaolan.jpg" type="image.x-icon" />
+  </head>
+
+  <style>
+    body {
+      background-color: lightyellow;
+    }
+  </style>
+
+  <body>
+    <!-- add header element tag -->
+    <header id="header">
+      <h1>Person&nbsp;figure</h1>
+
+      <nav>
+        <p>Qucik Access:</p>
+        <ul>
+          <li>
+            <a href="#ability">ability</a>
+          </li>
+
+          <li>
+            <a href="#experiences">experience</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <!-- add main element tag -->
+    <!-- only one per page -->
+    <main>
+      <p>
+        <strong>characteristic:</strong> <br />
+        <!-- An absolut reference -->
+        <a href="https://baike.baidu.com/item/花小兰/9015927"
+          >Check it by origional</a
+        >
+      </p>
+
+      <!-- not as important as the main content -->
+      <aside>
+        <details>
+          <summary>如果你喜欢<mark>小兰</mark></summary>
+          <p>那我们就是朋友 :)</p>
+        </details>
+      </aside>
+
+      <br />
+
+      <!-- title pop up to the user -->
+      <!-- better provide woidth and the height to give the browser an idea of the aspect ratio -->
+      <section>
+        <figure>
+          <img
+            src="xiaolan2.png"
+            alt="XiaoLan"
+            title="小兰"
+            width="300"
+            height="300"
+          />
+          <figcaption>小兰!</figcaption>
+        </figure>
+      </section>
+      <ul>
+        <li>
+          <em>性格：</em
+          >勇敢、直爽、富有爱心与正义感、重友情、有些爱顶嘴、易冲动、坚强<br />
+        </li>
+
+        <li>
+          <em>缺点：</em>爱哭，做事有些鲁莽，虽然受过几次教育但仍有一点<br />
+        </li>
+
+        <li>
+          <em>身份：</em>少林寺唯一的女弟子，少林三英雄其中一人的后代<br />
+        </li>
+
+        <li><em>遗憾：</em>宝典上册被黑狐王夺走<br /></li>
+      </ul>
+
+      <!-- Description List -->
+      <dl>
+        <dt><em>最好的朋友：</em></dt>
+        <dd>唐小龙、陈小虎</dd>
+        <!-- set loading to lazyto let the 
+        broswer load the img when is getting close -->
+
+        <img
+          src="longlan.png"
+          alt="龙兰"
+          title="龙兰"
+          width="480"
+          height="270"
+          loading="lazy"
+        />
+        <figure>
+          <figcaption>龙兰</figcaption>
+          <p>认识你我此生无憾了</p>
+        </figure>
+        <dt><em>最讨厌的人：</em></dt>
+        <dd>黑狐王，陆言</dd>
+      </dl>
+      <hr />
+
+      <!-- First article -->
+      <article id="ability">
+        <section>
+          <h2>Abilities</h2>
+          <p>
+            <em>武功：</em>鞭子使的很顺手，跟踪与偷听的功夫也不错<br />
+            <em>武器：</em>软鞭（原案设定为双刀），经常借小龙的剑使使，
+            比如砍绳子，逼问人鱼王子，三节棍，衣服撕成的布条（水底王国），床单，短剑
+          </p>
+        </section>
+
+        <section>
+          <figure>
+            <img
+              src="princess.jpg"
+              alt="princess"
+              width="360"
+              height="401"
+              loading="lazy"
+            />
+            <figcaption>公主!</figcaption>
+          </figure>
+        </section>
+      </article>
+      <hr />
+
+      <article id="experiences">
+        <section>
+          <h3>Experiences</h3>
+
+          <p>
+            就是这三个<strong>调皮吵闹</strong>的中华小子，因为有黑狐王这个大敌当前，中华小子们上天入地，斩妖除魔，有纷至沓来的战斗、考验、功课，还有日常的打扫卫生，他们几乎没闲下来过。在丛书的第七集中，方丈好不容易组织了一次踏青，结果碰上六月飞雪，于是，他们跟雪域神妖们又是一番恶斗，方丈也差点送命。<br />
+            在书中那个云海诡谲、想像奇异的世界里，三位中华小子都有着英雄的胆量，侦探的头脑，救世主般的决心，他们还有着正常人应该具有的反对血腥和暴力的良知，比如：在炸死兴风作浪的神妖之前，小虎第一次和集体闹起了别扭，因为他认为这样做太残暴了
+          </p>
+        </section>
+      </article>
+    </main>
+    <hr />
+
+    <!-- can have multiple footer tags -->
+    <footer>
+      <!-- An absolut reference -->
+      &lt;&lt;&lt; &copy;
+      <a href="https://www.baidu.com/">BaiDu</a> &gt;&gt;&gt;
+      <p>
+        <!-- Current web page -->
+        <!-- <a href="#">back to top</a> -->
+
+        <!-- reload ot the current page -->
+        <!-- or tyoe "/" to the index.html by default -->
+        <a href="/practice2.html">back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>
